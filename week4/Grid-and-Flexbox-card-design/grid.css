@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Roboto:wght@300&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #03034f;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  min-height:100vh;
+}
+
+main{
+  display:grid;
+  grid-template-areas: 
+  'r r y'
+  'r r y'
+  'g b b'
+  'g b2 b2'
+  'g b2 b2'
+  ;
+  width:30%;
+  gap:15px;
+}
+
+
+.red{
+  background-color: #dd4236;
+  grid-area:r;
+  padding:4rem;
+}
+.yellow{
+  background-color: #f5a10f;
+  grid-area:y;
+  padding:2rem;
+}
+.green{
+  background-color: #00d600;
+  grid-area:g;
+  padding:5rem;
+}
+.blue{
+  background-color:#0096FF;
+  grid-area:b;
+  padding:1.5rem;
+}
+.blue2{
+  background-color:#0096FF;
+  grid-area:b2;
+  padding:2.0rem;
+}
+
+footer div{
+  color:hsla(0, 0%, 100%, 0.75);
+  font-family: 'Lexend Deca', sans-serif;
+  font-size:15px;
+  margin-top:40rem;
+}
+
+footer a{
+  cursor:pointer;
+  color:#a728e2;
+  text-decoration:none;
+}
+footer a:hover{
+  color:#c787f2;
+}

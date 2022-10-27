@@ -1,0 +1,126 @@
+@import url(https://fonts.google.com/specimen/Lexend+Deca);
+@import url(https://fonts.google.com/specimen/Big+Shoulders+Display);
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+
+  body{
+    background-color: hsl(0, 0%, 95%);
+    color: hsla(0, 0%, 100%, 0.75)
+  }
+h2{
+    font-family: 'Big Shoulders Display';
+  margin-bottom: 30px;
+  margin-top : 30px;
+}
+
+div{
+    padding-left: 60px;
+  margin-top: auto;
+    margin-bottom: auto;
+}
+p{
+    font-family: 'Lexend Deca', sans-serif;
+   margin-top: auto;
+margin-bottom: auto;
+}
+.container{
+height: 100vh;
+display: flex;
+justify-content:center;
+align-items: center;
+font-weight: 700;
+font-size: 15px;
+}
+
+#sedan{
+    background-color: hsl(31, 77%, 52%);
+    width:60vh;
+    height:70%;
+    min-height:450px;
+}
+
+#suv{
+    background-color: hsl(179, 100%, 13%);
+    width:60vh;
+    height:70%;
+    min-height:450px;
+
+
+  }
+
+#luxury{
+   background-color: hsl(184, 100%, 22%);
+   width:60vh;
+   height:70%;
+   min-height:450px;
+}
+
+
+button{
+    background-color:hsl(0, 0%, 95%);
+    border-radius: 30px;
+    border-color: hsl(0, 0%, 95%);
+    padding: 10px;
+    margin: 10px;
+}
+
+
+#luxury button{
+    color: hsl(184, 100%, 22%);
+    font-weight: 300px;
+}
+
+#suv button{
+    color: hsl(179, 100%, 13%);
+    font-weight: 300px;
+  }
+
+  #sedan button{
+    color: hsl(31, 77%, 52%);
+    font-weight: 300px;
+}
+
+
+#sedan{
+    border-radius:4px 0px 0px 4px;
+  }
+
+  #luxury{
+    border-radius:0px 4px 4px 0px;
+  }
+
+
+  @media screen and (max-width:375px){
+    main{
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      height:90%;
+      width:70%;
+      min-width:200px;
+      margin-top:4rem;
+      margin-bottom:4rem;
+    }
+
+
+  footer #div{
+  color:hsla(0, 0%, 100%, 0.75);
+  font-family: 'Lexend Deca', sans-serif;
+    font-weight: 700px;
+  font-size:50px;
+  margin-top:60px;
+
+}
+
+footer a{
+  cursor:pointer;
+  color:#0f4448;
+  text-decoration:none;
+}
+footer a:hover{
+  color:#584e5f;
+}
